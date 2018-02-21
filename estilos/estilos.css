@@ -1,0 +1,283 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.index-body{
+	background-image: url("http://thesstoday.gr/wp-content/uploads/2017/04/TESLA-CAR.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+.upbar{
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+
+.upbar li{
+    display:inline;
+}
+.upbar a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: #686868;
+}
+
+.upbar a:hover{
+	color: black;
+	border-bottom: 1px black solid;
+
+}
+
+
+
+
+.logo{
+	height: 100px; float: left;
+}
+
+
+.hometext{
+	font-size: 75px;
+	color: white;
+	float: left;
+	padding-top: 250px;
+	margin-left: -50px;
+}
+
+.rightpart{
+	float: right;
+	width: 400px;
+	background-color: rgba(65, 66, 68, 0.3);
+	margin-top: 400px;
+	font-size: 14px;
+	color: #e0e0e0;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.rightpart h2{
+	margin: auto;
+}
+
+/*Estilos de la pagina historia.html*/
+
+.historia-body{
+
+
+}
+
+.upbar2{
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+
+.upbar2 li{
+    display:inline;
+}
+.upbar2 a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: #686868;
+}
+
+.upbar2 a:hover{
+	color: black;
+	border-bottom: 1px solid black;
+
+}
+
+.contenedor-historia{
+	background: #ffffff; width: 900px; margin: auto; position: absolute; top:50%; left:50%;
+	transform: translate(-50%, -50%); padding: 15px;
+	margin-top: 110px;
+	overflow: hidden;
+
+}
+
+.historia-izquierda{
+	width: 300px;
+	float: left;
+	
+
+}
+
+.historia-derecha{
+	width: 500px;
+	float: right;
+	padding: 15px;
+	text-align: justify;
+    text-justify: inter-word;
+		
+}
+
+.historia-derecha h2{
+	text-align: center;
+}
+
+.elonmusk{
+	width: 350px;
+	margin-top: 85px;
+}
+
+.historia-abajo{
+	margin-top: 400px;
+	width: 900px;
+	overflow: hidden;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+/*Estilos de pagina mision-vision.html*/
+
+.mv-body{
+	
+
+}
+
+
+.contenedor-mv{
+	width: 800px; height: 600px; margin: auto; position: absolute; top:50%; left:50%;
+	transform: translate(-50%, -50%); padding: 15px; text-align: justify;
+    text-justify: inter-word; margin-top: 130px;
+
+}
+
+
+.mision{
+	float: left;
+	width: 350px; height: 500px;
+}
+
+.vision{
+	float: right;
+	width: 350px; height: 500px;
+}
+	
+/*Estilis de comprar.html*/
+
+.comprar-body{
+
+	background-image: url("https://s2.eestatic.com/2017/11/16/economia/empresas/Tesla_Motors-Tesla_Model_3-Motor-Empresas_262485472_54257533_4000x2250.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+.upbar3{
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+
+.upbar3 li{
+    display:inline;
+}
+.upbar3 a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: #d6d6d6;
+}
+
+.upbar3 a:hover{
+	color: white;
+	border-bottom: 1px solid white;
+
+}
+
+.subcontenedor{
+	margin-left: 30px;
+}
+
+.contenedor-comprar{
+
+	width: 900px; height: 310px; margin: auto; position: absolute; top:35%; left:50%;
+	transform: translate(-50%, -50%); padding: 15px; text-align: justify;
+    text-justify: inter-word; margin-top: 130px; background-color: rgba(65, 66, 68, 0.5); border-radius: 10px;
+
+}
+
+
+.comprar-izquierda{
+	text-align: right;
+	float: left;
+	color: white;
+}
+
+.comprar-izquierda h1{
+	margin: 0;
+}
+
+
+.comprar-derecha{
+	float: right;
+	margin-right: 50px;
+
+	
+}
+.concesionario{
+	height: 300px;
+	border: 4px solid black;
+}
+
+.mapa{
+	height: 120px;
+	margin-top: 35px;
+}
+
+.cont-mapa{
+	margin-left: 100px;
+}
+
+/*Estilos de contacto.html*/
+
+
+.contacto-body{
+
+	background-image: url("https://www.diariomotor.com/imagenes/picscache/1920x1600c/tesla-model-s-p100d_1920x1600c.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.formulario-body{
+	position: absolute; top:58%; left:50%; transform: translate(-50%, -50%); padding: 15px; border: black solid 1px; width: 500px; height: 540px;
+	background-color: rgba(65, 66, 68, 0.5); border-radius: 10px; color: white;
+}
+
+
+.parte-izquierda-form{
+	float: left;
+	/*border: solid black 1px;*/
+	width: 230px;
+	height: 420px;
+}
+
+.parte-derecha-form{
+	float: right;
+	/*border: solid black 1px;*/
+	width: 230px;
+}
+
+
+.comentario{
+	width: 220px; height: 345px; resize: none;
+
+}
+
+.boton-enviar input[type=submit]{
+	border: none; border-bottom: 1px solid black; padding: 8px; margin-top: 20px;
+}
+
+.formulario-body input[type=text]{
+	border: none; border-bottom: 1px solid gray; width: 220px; margin-bottom: 10px; padding: 5px;
+}
+
+
