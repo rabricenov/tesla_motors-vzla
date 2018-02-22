@@ -94,8 +94,13 @@ body{
 }
 
 .contenedor-historia{
-	background: #ffffff; width: 900px; margin: auto; position: absolute; top:50%; left:50%;
-	transform: translate(-50%, -50%); padding: 15px;
+	background: #ffffff;
+	width: 900px;
+	margin: auto;
+	position: absolute;
+	top:50%; left:50%;
+	transform: translate(-50%, -50%);
+	padding: 15px;
 	margin-top: 110px;
 	overflow: hidden;
 
@@ -136,28 +141,35 @@ body{
 
 /*Estilos de pagina mision-vision.html*/
 
-.mv-body{
-	
 
-}
 
 
 .contenedor-mv{
-	width: 800px; height: 600px; margin: auto; position: absolute; top:50%; left:50%;
-	transform: translate(-50%, -50%); padding: 15px; text-align: justify;
-    text-justify: inter-word; margin-top: 130px;
+	width: 800px;
+	height: 600px;
+	margin: auto;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	padding: 15px;
+	text-align: justify;
+    text-justify: inter-word;
+    margin-top: 130px;
 
 }
 
 
 .mision{
 	float: left;
-	width: 350px; height: 500px;
+	width: 350px;
+	height: 500px;
 }
 
 .vision{
 	float: right;
-	width: 350px; height: 500px;
+	width: 350px;
+	height: 500px;
 }
 	
 /*Estilis de comprar.html*/
@@ -199,9 +211,19 @@ body{
 
 .contenedor-comprar{
 
-	width: 900px; height: 310px; margin: auto; position: absolute; top:35%; left:50%;
-	transform: translate(-50%, -50%); padding: 15px; text-align: justify;
-    text-justify: inter-word; margin-top: 130px; background-color: rgba(65, 66, 68, 0.5); border-radius: 10px;
+	width: 900px;
+	height: 310px;
+	margin: auto;
+	position: absolute;
+	top:35%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	padding: 15px;
+	text-align: justify;
+    text-justify: inter-word;
+    margin-top: 130px;
+    background-color: rgba(65, 66, 68, 0.5);
+    border-radius: 10px;
 
 }
 
@@ -248,8 +270,16 @@ body{
 }
 
 .formulario-body{
-	position: absolute; top:58%; left:50%; transform: translate(-50%, -50%); padding: 15px; border: black solid 1px; width: 500px; height: 540px;
-	background-color: rgba(65, 66, 68, 0.5); border-radius: 10px; color: white;
+	position: absolute;
+	top:58%; left:50%;
+	transform: translate(-50%, -50%);
+	padding: 15px;
+	border: black solid 1px;
+	width: 500px;
+	height: 540px;
+	background-color: rgba(65, 66, 68, 0.5);
+	border-radius: 10px;
+	color: white;
 }
 
 
@@ -268,16 +298,25 @@ body{
 
 
 .comentario{
-	width: 220px; height: 345px; resize: none;
+	width: 220px;
+	height: 345px;
+	resize: none;
 
 }
 
 .boton-enviar input[type=submit]{
-	border: none; border-bottom: 1px solid black; padding: 8px; margin-top: 20px;
+	border: none;
+	border-bottom: 1px solid black;
+	padding: 8px;
+	margin-top: 20px;
 }
 
 .formulario-body input[type=text]{
-	border: none; border-bottom: 1px solid gray; width: 220px; margin-bottom: 10px; padding: 5px;
+	border: none;
+	border-bottom: 1px solid gray;
+	width: 220px;
+	margin-bottom: 10px;
+	padding: 5px;
 }
 
 

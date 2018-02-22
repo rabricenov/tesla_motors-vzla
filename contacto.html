@@ -40,19 +40,19 @@
 					</div>
 					
 					<div class="parte-izquierda-form">
-						<h4>Nombre</h4> <input type="text" name="name" placeholder="Tu nombre">
-						<h4>Apellido</h4><input type="text" name="lastname" placeholder="Tu Apellido">
-						<h4>Email</h4><input type="text" name="email" placeholder="correo@dominio.com">
+						<h4>Nombre</h4> <input type="text" name="name" placeholder="Tu nombre" required="required">
+						<h4>Apellido</h4><input type="text" name="lastname" placeholder="Tu Apellido" required="required">
+						<h4>Email</h4><input type="text" name="email" placeholder="correo@dominio.com" required="required">
 						<h4>Sexo</h4>
-						<input type="radio" name="gender" value="male" checked> Hombre<br>
- 						<input type="radio" name="gender" value="female"> Mujer<br>
-  						<input type="radio" name="gender" value="other"> Otro  
+						<input type="radio" name="gender" value="male" required="required"> Hombre<br>
+ 						<input type="radio" name="gender" value="female" required="required"> Mujer<br>
+  						<input type="radio" name="gender" value="other" required="required"> Otro  
 					</div>
 
 
 					<div class="parte-derecha-form">
 						<h4>Tu comentario</h4> 
-						<textarea class="comentario" required> </textarea>
+						<textarea class="comentario" required="required"> </textarea>
 					</div>
 
 					<div class="boton-enviar">
